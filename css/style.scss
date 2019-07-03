@@ -75,7 +75,7 @@
     margin:1%;
     display: flex;
     flex-wrap: wrap;
-    @include centerall();
+   
 }
 .bottom{
     height: 50px;
@@ -149,3 +149,38 @@ main{
             height: 100%;
         }
     }
+
+
+/*  col 3  right*/
+.right{
+    text-align:left;
+    h2{display:none;}
+    h5{
+        height: 48px;
+        padding-bottom: 10px;
+        font-size: 21px;
+        font-family: sans-serif;
+    }
+    a#going{
+        display:block;
+        height: 20px;
+        
+        font-size: 16px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: rgba(0,0,0,0.54);
+    }
+    a#susy{
+        font-size: 15px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: rgba(0,0,0,0.54);
+    }
+    #seeall{
+        display: block;
+        text-align: right;
+        text-decoration: none;
+        color: #03A87C;
+        
+    }
+}
