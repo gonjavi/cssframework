@@ -239,6 +239,10 @@ table {
   color: darkgray;
 }
 
+main .line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+}
+
 main article {
   width: 100%;
   margin-bottom: 7%;
