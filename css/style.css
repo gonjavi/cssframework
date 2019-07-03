@@ -201,7 +201,7 @@ table {
 }
 
 .row {
-  margin-top: 1%;
+  margin: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,5 +246,47 @@ table {
 
 .bar2 ul li a:hover {
   color: darkgray;
+}
+
+main article .title-img {
+  background: url(../img/img1.jpeg);
+  background-size: cover;
+  height: 150px;
+  background-position: center;
+}
+
+main article .title-img h2 {
+  display: none;
+}
+
+main article .container h2 {
+  font-size: 18px;
+  color: black;
+  font-weight: 900;
+  text-align: left;
+}
+
+main article .text-article p {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 3%;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+main article .signature p {
+  text-align: left;
+  font-size: 11px;
+  margin-top: 3%;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
