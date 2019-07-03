@@ -2,45 +2,53 @@
 
 .col1
 {
-flex: 10%;
+flex: 9%;
 height: auto;
+
 }
 
 .col2{
-    width:20%;
+    flex:19%;
     height: auto;
+    width: 100%;
 }
 .col3{
-    width:30%;
+    flex:29%;
     height: auto;
+    
 }
 
 .col4{
-    width:40%;
+    flex:39%;
     height: auto;
+    width: 100%;
 }
 .col5{
-    width:50%;
+    flex:49%;
     height: auto;
+    width: 100%;
 }
 .col6{
-    width:60%;
+    flex:59%;
     height: auto;
+    width: 100%;
 }
 .col7{
-    width:70%;
+    flex:70%;
     height: auto;
+    width: 100%;
 }
 .col8{
-    flex: 80%;
+    flex: 79%;
     height: auto;
+    width: 100%;
 }
 .col9{
-    width:90%;
+    flex:89%;
     height: auto;
 }
 .col10{
-    width:100%;
+    flex:99%;
     height: auto;
 }
 

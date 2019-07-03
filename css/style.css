@@ -50,57 +50,113 @@ table {
 
 /*  columns grid*/
 .col1 {
-  -webkit-box-flex: 10%;
-      -ms-flex: 10%;
-          flex: 10%;
+  -webkit-box-flex: 9%;
+      -ms-flex: 9%;
+          flex: 9%;
   height: auto;
 }
 
 .col2 {
-  width: 20%;
+  -webkit-box-flex: 19%;
+      -ms-flex: 19%;
+          flex: 19%;
   height: auto;
+  width: 100%;
 }
 
 .col3 {
-  width: 30%;
+  -webkit-box-flex: 29%;
+      -ms-flex: 29%;
+          flex: 29%;
   height: auto;
 }
 
 .col4 {
-  width: 40%;
+  -webkit-box-flex: 39%;
+      -ms-flex: 39%;
+          flex: 39%;
   height: auto;
+  width: 100%;
 }
 
 .col5 {
-  width: 50%;
+  -webkit-box-flex: 49%;
+      -ms-flex: 49%;
+          flex: 49%;
   height: auto;
+  width: 100%;
 }
 
 .col6 {
-  width: 60%;
+  -webkit-box-flex: 59%;
+      -ms-flex: 59%;
+          flex: 59%;
   height: auto;
+  width: 100%;
 }
 
 .col7 {
-  width: 70%;
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
   height: auto;
+  width: 100%;
 }
 
 .col8 {
-  -webkit-box-flex: 80%;
-      -ms-flex: 80%;
-          flex: 80%;
+  -webkit-box-flex: 79%;
+      -ms-flex: 79%;
+          flex: 79%;
   height: auto;
+  width: 100%;
 }
 
 .col9 {
-  width: 90%;
+  -webkit-box-flex: 89%;
+      -ms-flex: 89%;
+          flex: 89%;
   height: auto;
 }
 
 .col10 {
-  width: 100%;
+  -webkit-box-flex: 99%;
+      -ms-flex: 99%;
+          flex: 99%;
   height: auto;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container button {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 3px;
+  width: 20%;
+  height: 32px;
+}
+
+.container i {
+  height: 25px;
+  width: 25px;
+  margin-right: 3%;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.container img {
+  width: 100%;
 }
 
 .row {
@@ -109,10 +165,17 @@ table {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .bar {
   border: 1px solid black;
-  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
