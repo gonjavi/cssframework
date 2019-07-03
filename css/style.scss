@@ -218,3 +218,29 @@ main{
         
     }
 }
+
+
+/**************+down**************/
+
+.down-left{
+    border: 1px solid black;
+    height: 700px;
+
+    article{
+        margin-left: 200px;
+        margin-bottom:48px;
+        h2{display:none;}
+        .title-left{
+            width: 75%;
+            border: 1px solid black;
+        }
+        .photo-r{
+            border: 1px solid black;
+        }
+    }
+}
+
+.down-right{
+    border: 1px solid black;
+    height: 700px;
+}

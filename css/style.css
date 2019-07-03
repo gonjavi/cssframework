@@ -354,4 +354,33 @@ main article .signature p {
   text-decoration: none;
   color: #03A87C;
 }
+
+/**************+down**************/
+.down-left {
+  border: 1px solid black;
+  height: 700px;
+}
+
+.down-left article {
+  margin-left: 200px;
+  margin-bottom: 48px;
+}
+
+.down-left article h2 {
+  display: none;
+}
+
+.down-left article .title-left {
+  width: 75%;
+  border: 1px solid black;
+}
+
+.down-left article .photo-r {
+  border: 1px solid black;
+}
+
+.down-right {
+  border: 1px solid black;
+  height: 700px;
+}
 /*# sourceMappingURL=style.css.map */
