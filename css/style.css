@@ -53,7 +53,7 @@ table {
   -webkit-box-flex: 9%;
       -ms-flex: 9%;
           flex: 9%;
-  height: auto;
+  height: 100%;
 }
 
 .col2 {
@@ -109,6 +109,9 @@ table {
           flex: 79%;
   height: auto;
   width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .col9 {
@@ -127,16 +130,18 @@ table {
 
 .container {
   width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   text-align: center;
+  vertical-align: middle;
 }
 
 .container button {
@@ -149,8 +154,8 @@ table {
 }
 
 .container i {
-  height: 25px;
-  width: 25px;
+  height: 32px;
+  width: 32px;
   margin-right: 3%;
   color: rgba(0, 0, 0, 0.54);
 }
@@ -159,7 +164,44 @@ table {
   width: 100%;
 }
 
+.container2 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container2 button {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 3px;
+  width: 20%;
+  height: 32px;
+}
+
+.container2 i {
+  height: 25px;
+  width: 25px;
+  margin-right: 3%;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.container2 img {
+  width: 100%;
+}
+
 .row {
+  margin-top: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,15 +215,11 @@ table {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  vertical-align: middle;
 }
 
 .bottom {
   height: 50px;
-}
-
-.bar {
-  border: 1px solid black;
-  height: 65px;
 }
 
 .bar2 {

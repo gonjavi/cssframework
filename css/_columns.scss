@@ -3,7 +3,7 @@
 .col1
 {
 flex: 9%;
-height: auto;
+height: 100%;
 
 }
 
@@ -42,6 +42,7 @@ height: auto;
     flex: 79%;
     height: auto;
     width: 100%;
+    align-items: center;
 }
 .col9{
     flex:89%;
