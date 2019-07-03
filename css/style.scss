@@ -1,0 +1,13 @@
+@import "../css/reset.scss";
+@import "../css/columns.scss";
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bar{
+    border: 1px solid black;
+    height: 100px;
+}
