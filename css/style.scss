@@ -41,8 +41,34 @@
     flex-wrap: wrap;
     @include centerall();
 }
-
+.bottom{
+    height: 50px;
+}
 .bar{
     border: 1px solid black;
+    height:65px;
     
+}
+.bar2{
+    height:50px;
+ ul{
+     li:nth-child(1){
+        margin:0;
+     }
+    li{
+        display: inline;
+        margin-left: 1%;
+        line-height: 50px;
+        vertical-align: middle;
+        a{
+            color: rgba(0,0,0,0.54);
+            text-decoration: none;
+            font-size: 15px;
+            font-family: medium,content,sans-serif;
+            &:hover{
+                color:darkgray;
+            }
+        }
+ }
+}
 }

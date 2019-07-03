@@ -175,7 +175,38 @@ table {
   text-align: center;
 }
 
+.bottom {
+  height: 50px;
+}
+
 .bar {
   border: 1px solid black;
+  height: 65px;
+}
+
+.bar2 {
+  height: 50px;
+}
+
+.bar2 ul li:nth-child(1) {
+  margin: 0;
+}
+
+.bar2 ul li {
+  display: inline;
+  margin-left: 1%;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.bar2 ul li a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: medium,content,sans-serif;
+}
+
+.bar2 ul li a:hover {
+  color: darkgray;
 }
 /*# sourceMappingURL=style.css.map */
