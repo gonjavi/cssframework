@@ -224,23 +224,31 @@ main{
 /**************+down**************/
 
 .down-left{
-    border: 1px solid black;
-    height: 700px;
+   height: auto;
 
     h1{
         margin-left:17%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid gray;
     }
-    a{
-        display:block;
-        text-align: right;
+    a{display:block; }
+    a.title{
+        text-align: left; 
+        font-size:21px;
+        font-weight:700;
+        color:black;
     }
+    a.more{text-align:right;}
+   
     article.members{
         margin-left: 17%;
         margin-bottom:48px;
-        width:85%;
+        padding-top:20px;
+        width:82%;
         h2{display:none;}
         .title-left{
-            width: 75%;
+            width: 80%;
+            
             
             h3{
                 font-size: 24px;
@@ -262,6 +270,7 @@ main{
                 &:hover{
                     color:darkgray;
                 }
+               
             }
         }
         .photo-r{

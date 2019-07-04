@@ -369,23 +369,35 @@ main article .signature p {
 
 /**************+down**************/
 .down-left {
-  border: 1px solid black;
-  height: 700px;
+  height: auto;
 }
 
 .down-left h1 {
   margin-left: 17%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
 }
 
 .down-left a {
   display: block;
+}
+
+.down-left a.title {
+  text-align: left;
+  font-size: 21px;
+  font-weight: 700;
+  color: black;
+}
+
+.down-left a.more {
   text-align: right;
 }
 
 .down-left article.members {
   margin-left: 17%;
   margin-bottom: 48px;
-  width: 85%;
+  padding-top: 20px;
+  width: 82%;
 }
 
 .down-left article.members h2 {
@@ -393,7 +405,7 @@ main article .signature p {
 }
 
 .down-left article.members .title-left {
-  width: 75%;
+  width: 80%;
 }
 
 .down-left article.members .title-left h3 {
