@@ -430,6 +430,8 @@ main article .signature p {
 }
 
 .down-left h1 {
+  font-size: 22px;
+  font-weight: 700;
   margin-left: 17%;
   padding-bottom: 20px;
   border-bottom: 1px solid gray;
@@ -499,25 +501,50 @@ main article .signature p {
   height: 700px;
 }
 
-/* sidebar */
-.c:after {
-  clear: both;
-  content: "";
-  display: block;
+/*  
+  **************       aside    *************+++    */
+aside {
+  padding-right: 20px;
 }
 
-.header-side {
-  overflow: hidden;
-  background: cyan;
-}
-
-.header-side h3 {
-  width: 50%;
-  font-size: 18px;
+aside h3 {
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+  font-size: 24px;
   font-weight: 700;
+  font-family: sans-serif;
 }
 
-.header-side img {
-  width: 30%;
+aside article.row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: auto;
+}
+
+aside article.row .number a {
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+aside article.row .text {
+  padding: 0 20px 0 20px;
+  margin-right: 40px;
+}
+
+aside article.row .text h4 {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+aside article.row .text a {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: rgba(0, 0, 0, 0.54);
 }
 /*# sourceMappingURL=style.css.map */
