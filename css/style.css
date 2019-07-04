@@ -53,7 +53,7 @@ table {
   -webkit-box-flex: 9%;
       -ms-flex: 9%;
           flex: 9%;
-  height: 100%;
+  width: 100%;
 }
 
 .col2 {
@@ -69,6 +69,7 @@ table {
       -ms-flex: 29%;
           flex: 29%;
   height: auto;
+  width: 100%;
 }
 
 .col4 {
@@ -282,7 +283,6 @@ main article .signature p {
 .thumbnail {
   width: 100px;
   height: 100px;
-  float: left;
 }
 
 .thumbnail img {
@@ -314,6 +314,18 @@ main article .signature p {
 
 .article-with-thumbnails {
   margin: 0 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  text-align: left;
 }
 
 /*  col 3  right*/
@@ -416,5 +428,27 @@ main article .signature p {
 .down-right {
   border: 1px solid black;
   height: 700px;
+}
+
+/* sidebar */
+.c:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.header-side {
+  overflow: hidden;
+  background: cyan;
+}
+
+.header-side h3 {
+  width: 50%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header-side img {
+  width: 30%;
 }
 /*# sourceMappingURL=style.css.map */
