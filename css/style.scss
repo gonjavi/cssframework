@@ -226,17 +226,50 @@ main{
     border: 1px solid black;
     height: 700px;
 
-    article{
-        margin-left: 200px;
+    h1{
+        margin-left:17%;
+    }
+    a{
+        display:block;
+        text-align: right;
+    }
+    article.members{
+        margin-left: 17%;
         margin-bottom:48px;
+        width:85%;
         h2{display:none;}
         .title-left{
             width: 75%;
-            border: 1px solid black;
+            
+            h3{
+                font-size: 24px;
+                font-family: sans-serif;
+                font-weight: 700;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 16px;
+                margin-bottom: 12px;
+                color: rgba(0,0,0,.54);
+            }
+            a{
+                text-decoration: none;
+                text-align: left;
+                font-size:14px;
+                margin-bottom: 5px;
+                color: rgba(0,0,0,.84);
+                &:hover{
+                    color:darkgray;
+                }
+            }
         }
         .photo-r{
-            border: 1px solid black;
+            
+            picture{
+               
+                img{ height:123px;}
         }
+    }
     }
 }
 

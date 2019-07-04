@@ -361,22 +361,56 @@ main article .signature p {
   height: 700px;
 }
 
-.down-left article {
-  margin-left: 200px;
-  margin-bottom: 48px;
+.down-left h1 {
+  margin-left: 17%;
 }
 
-.down-left article h2 {
+.down-left a {
+  display: block;
+  text-align: right;
+}
+
+.down-left article.members {
+  margin-left: 17%;
+  margin-bottom: 48px;
+  width: 85%;
+}
+
+.down-left article.members h2 {
   display: none;
 }
 
-.down-left article .title-left {
+.down-left article.members .title-left {
   width: 75%;
-  border: 1px solid black;
 }
 
-.down-left article .photo-r {
-  border: 1px solid black;
+.down-left article.members .title-left h3 {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.down-left article.members .title-left p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.down-left article.members .title-left a {
+  text-decoration: none;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.84);
+}
+
+.down-left article.members .title-left a:hover {
+  color: darkgray;
+}
+
+.down-left article.members .photo-r picture img {
+  height: 123px;
 }
 
 .down-right {
