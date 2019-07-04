@@ -17,6 +17,27 @@
 </head>
 <body>
     <nav>
+            <div class="bar3">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ONEZERO</a></li>
+                        <li><a href="#">ELEMENTAL</a></li>
+                        <li><a href="#">GEN</a></li>
+                        <li><a href="#">STARTUPS</a></li>
+                        <li><a href="#">SELF</a></li>
+                        <li><a href="#">TEACH</a></li>
+                        <li><a href="#">HEATED</a></li>
+                        <li><a href="#">ZORA</a></li>
+                        <li><a href="#">DESIGN</a></li>
+                        <li><a href="#">CULTURE</a></li>
+                        <li><a href="#">HUMAN PARTS</a></li>
+                        <li><a href="#">MORE</a></li>
+                    </ul>
+          
+                  </div><!-- col8 -->
+
+
+
         <div class="row">
         <div class="col1"></div>
         <div class="col8 bar">
@@ -42,6 +63,7 @@
         </div><!-- col8 -->
         <div class="col1"></div>
     </div>
+    
     <div class="row bottom">
             <div class="col1"></div>
             <div class="col8 bar2">
@@ -64,6 +86,7 @@
             </div><!-- col8 -->
             <div class="col1"></div>
         </div>
+    
 
     </nav>
     <main>
@@ -323,12 +346,10 @@
                     
                                             
                 </section>
-               <!--  end section featured ***********************-->s
+               <!--  end section featured ***********************-->
 
-
-                <div class="col4 down-right">
-                   <aside>
-                       <div class="container">
+               <aside>
+                <div class="col4">
                     <div class="row">
                             
                         <div class="col2">
@@ -341,14 +362,30 @@
 
                     </div>
 
+                
+                   
                 </div>
-                   </aside> 
-                </div>
-            
+            </aside> 
             </div>
 
        
     </main>
-     
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+            // Catch scroll event
+            $(window).scroll(function() {
+              // If user didn't scroll 1200px set default z-index
+              if ($(this).scrollTop() < 151) {
+                $(".bar3").css("display", "none");
+              } else {
+                // If user scrolled 1200px change logo's z-index to 9999
+                $(".bar3").css("display", "flex");
+              }
+            });
+          </script>
 </body>
 </html>

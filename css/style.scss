@@ -79,6 +79,17 @@
 }
 .bottom{
     height: 50px;
+    
+}
+.bottom::after{
+    position: fixed;
+    
+    z-index: 1020;
+    top: 50px;
+right: 0;
+width: 100%;
+
+z-index: 1020;   
 }
 
 .bar2{
@@ -104,6 +115,42 @@
  }
 }
 }
+.bar3{
+    height:50px;
+    position:fixed;
+    width: 100%;
+    background: white;
+    top:0;
+    border-bottom: 1px solid $medium-grey;
+    @include centerall();
+    display:none;
+ ul{
+     
+     flex-grow: 1;
+    
+     li:nth-child(1){
+        margin:0;
+     }
+    li{
+        display: inline;
+        margin-left: 1%;
+        line-height: 50px;
+        
+        a{
+            
+            color: rgba(0,0,0,0.54);
+            text-decoration: none;
+            font-size: 12px;
+            font-family: medium,content,sans-serif;
+            &:hover{
+                color:darkgray;
+            }
+        }
+ }
+}
+}
+
+
 
 main{
     .line {

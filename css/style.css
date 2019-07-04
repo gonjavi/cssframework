@@ -214,6 +214,15 @@ table {
   height: 50px;
 }
 
+.bottom::after {
+  position: fixed;
+  z-index: 1020;
+  top: 50px;
+  right: 0;
+  width: 100%;
+  z-index: 1020;
+}
+
 .bar2 {
   height: 50px;
 }
@@ -237,6 +246,54 @@ table {
 }
 
 .bar2 ul li a:hover {
+  color: darkgray;
+}
+
+.bar3 {
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background: white;
+  top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  display: none;
+}
+
+.bar3 ul {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.bar3 ul li:nth-child(1) {
+  margin: 0;
+}
+
+.bar3 ul li {
+  display: inline;
+  margin-left: 1%;
+  line-height: 50px;
+}
+
+.bar3 ul li a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: medium,content,sans-serif;
+}
+
+.bar3 ul li a:hover {
   color: darkgray;
 }
 
