@@ -468,6 +468,22 @@ table {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
 @media (max-width: 767px) {
   .container button {
     display: none;

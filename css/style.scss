@@ -61,6 +61,10 @@ $auto:"auto";
     @media #{$large}{
     @include centerall-flexend();
     }
+
+    @media #{$medium}{
+        @include centerall-flexend();
+        }
     @media #{$small}{
 
         button{
