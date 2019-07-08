@@ -48,12 +48,24 @@ table {
   border-spacing: 0;
 }
 
-/*  columns grid*/
+/*  columns grid - large devices*/
 .col1 {
   -webkit-box-flex: 9%;
       -ms-flex: 9%;
           flex: 9%;
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .col1 {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col1 {
+    overflow: hidden;
+  }
 }
 
 .col2 {
@@ -115,6 +127,24 @@ table {
           align-items: center;
 }
 
+@media (max-width: 767px) {
+  .col8 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col8 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    overflow: hidden;
+  }
+}
+
 .col9 {
   -webkit-box-flex: 89%;
       -ms-flex: 89%;
@@ -127,6 +157,166 @@ table {
       -ms-flex: 99%;
           flex: 99%;
   height: auto;
+}
+
+@media (max-width: 767px) {
+  .col10 {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col10 {
+    overflow: hidden;
+  }
+}
+
+/* medium devices columns*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-m-1 {
+    -webkit-box-flex: 9%;
+        -ms-flex: 9%;
+            flex: 9%;
+    width: 100%;
+  }
+  .col-m-2 {
+    -webkit-box-flex: 19%;
+        -ms-flex: 19%;
+            flex: 19%;
+    height: auto;
+    width: 100%;
+  }
+  .col3-m-3 {
+    -webkit-box-flex: 29%;
+        -ms-flex: 29%;
+            flex: 29%;
+    height: auto;
+    width: 100%;
+  }
+  .col-m-4 {
+    -webkit-box-flex: 39%;
+        -ms-flex: 39%;
+            flex: 39%;
+    height: auto;
+    width: 100%;
+  }
+  .col-m-5 {
+    -webkit-box-flex: 49%;
+        -ms-flex: 49%;
+            flex: 49%;
+    height: auto;
+    width: 100%;
+  }
+  .col-m-6 {
+    -webkit-box-flex: 59%;
+        -ms-flex: 59%;
+            flex: 59%;
+    height: auto;
+    width: 100%;
+  }
+  .col-m-7 {
+    -webkit-box-flex: 70%;
+        -ms-flex: 70%;
+            flex: 70%;
+    height: auto;
+    width: 100%;
+  }
+  .col-m-8 {
+    -webkit-box-flex: 79%;
+        -ms-flex: 79%;
+            flex: 79%;
+    height: auto;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .col-m-9 {
+    -webkit-box-flex: 89%;
+        -ms-flex: 89%;
+            flex: 89%;
+    height: auto;
+  }
+  .col-m-10 {
+    -webkit-box-flex: 99%;
+        -ms-flex: 99%;
+            flex: 99%;
+    height: auto;
+  }
+}
+
+/*  classes for small devices */
+@media (max-width: 767px) {
+  .col-s-1 {
+    -webkit-box-flex: 9%;
+        -ms-flex: 9%;
+            flex: 9%;
+    width: 100%;
+  }
+  .col-s-2 {
+    -webkit-box-flex: 19%;
+        -ms-flex: 19%;
+            flex: 19%;
+    height: auto;
+    width: 100%;
+  }
+  .col-s-3 {
+    -webkit-box-flex: 29%;
+        -ms-flex: 29%;
+            flex: 29%;
+    height: auto;
+    width: 100%;
+  }
+  .col-s-4 {
+    -webkit-box-flex: 39%;
+        -ms-flex: 39%;
+            flex: 39%;
+    height: auto;
+    width: 100%;
+  }
+  .col-s-5 {
+    -webkit-box-flex: 49%;
+        -ms-flex: 49%;
+            flex: 49%;
+    height: auto;
+    width: 100%;
+  }
+  .col-s-6 {
+    -webkit-box-flex: 59%;
+        -ms-flex: 59%;
+            flex: 59%;
+    height: auto;
+    width: 100%;
+  }
+  .col-s-7 {
+    -webkit-box-flex: 70%;
+        -ms-flex: 70%;
+            flex: 70%;
+    height: auto;
+    width: 100%;
+  }
+  .col-s-8 {
+    -webkit-box-flex: 79%;
+        -ms-flex: 79%;
+            flex: 79%;
+    height: auto;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .col-s-9 {
+    -webkit-box-flex: 89%;
+        -ms-flex: 89%;
+            flex: 89%;
+    height: auto;
+  }
+  .col-s-10 {
+    -webkit-box-flex: 99%;
+        -ms-flex: 99%;
+            flex: 99%;
+    height: auto;
+  }
 }
 
 .container {
@@ -146,6 +336,12 @@ table {
 }
 
 @media (max-width: 767px) {
+  .container button {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
   .container button {
     display: none;
   }
@@ -266,6 +462,26 @@ table {
   text-align: center;
   vertical-align: middle;
   display: none;
+}
+
+@media (max-width: 767px) {
+  .bar3 {
+    height: 35px;
+    overflow: hidden;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .bar3 {
+    height: 35px;
+    overflow: hidden;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
 .bar3 ul {

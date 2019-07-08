@@ -30,8 +30,19 @@
         button{
            display:none;
         }
+
+        
     }
    
+    @media #{$medium}{
+
+        button{
+           display:none;
+        }
+
+        
+    }
+
     button{
         background: white;
         border:1px solid black;
@@ -125,6 +136,16 @@
     border-bottom: 1px solid $medium-grey;
     @include centerall();
     display:none;
+    @media #{$small}{
+        height:35px;
+        overflow:hidden;
+        align-items: baseline;
+    }
+    @media #{$medium}{
+        height:35px;
+        overflow:hidden;
+        align-items: baseline;
+    }
  ul{
      
      flex-grow: 1;
