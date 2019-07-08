@@ -3,7 +3,35 @@
 @import "colors.scss";
 @import "size.scss";
 
+$start: 0;
+$end: 1;
+$top:"top";
+$bottom:"bottom";
+$right:"right";
+$left:"left";
 
+
+@for $i from $start through $end {
+  .margin-#{$i}-#{$top} {
+    margin-#{$top}: #{$i}rem;
+  }
+
+  .margin-#{$i}-#{$bottom} {
+    margin-#{$bottom}: #{$i}rem;
+  }
+
+  .margin-#{$i}-#{$left} {
+    margin-#{$left}: #{$i}rem;
+  }
+
+  .margin-#{$i}-#{$right} {
+    margin-#{$right}: #{$i}rem;
+  }
+
+  .margin-#{$i}{
+    margin: #{$i}rem;
+  }
+}
 
 @mixin centerall {
     display:flex;
@@ -147,15 +175,7 @@
         align-items: baseline;
     }
 
-    $start: 1;
-    $end: 2;
-    
-    @for $i from $start through $end {
-      .margin-#{$i} {
-        margin: #{$i}rem;
-      }
-    }
-
+ 
  ul{
      
      flex-grow: 1;
