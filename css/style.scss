@@ -146,6 +146,16 @@
         overflow:hidden;
         align-items: baseline;
     }
+
+    $start: 1;
+    $end: 2;
+    
+    @for $i from $start through $end {
+      .margin-#{$i} {
+        margin: #{$i}rem;
+      }
+    }
+
  ul{
      
      flex-grow: 1;

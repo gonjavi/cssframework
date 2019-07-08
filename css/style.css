@@ -484,6 +484,14 @@ table {
   }
 }
 
+.bar3 .margin-1 {
+  margin: 1rem;
+}
+
+.bar3 .margin-2 {
+  margin: 2rem;
+}
+
 .bar3 ul {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
