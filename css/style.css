@@ -335,6 +335,10 @@ table {
   margin-right: 0rem;
 }
 
+.margin-auto {
+  margin: auto;
+}
+
 .margin-0 {
   margin: 0rem;
 }
@@ -351,12 +355,88 @@ table {
   margin-left: 1rem;
 }
 
-.margin-1-right {
+.margin-1-right, .down-left h1 {
   margin-right: 1rem;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .margin-1 {
   margin: 1rem;
+}
+
+.margin-2-top {
+  margin-top: 2rem;
+}
+
+.margin-2-bottom {
+  margin-bottom: 2rem;
+}
+
+.margin-2-left {
+  margin-left: 2rem;
+}
+
+.margin-2-right {
+  margin-right: 2rem;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-2 {
+  margin: 2rem;
+}
+
+.margin-3-top {
+  margin-top: 3rem;
+}
+
+.margin-3-bottom {
+  margin-bottom: 3rem;
+}
+
+.margin-3-left {
+  margin-left: 3rem;
+}
+
+.margin-3-right {
+  margin-right: 3rem;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-3 {
+  margin: 3rem;
+}
+
+.margin-4-top {
+  margin-top: 4rem;
+}
+
+.margin-4-bottom {
+  margin-bottom: 4rem;
+}
+
+.margin-4-left, .down-left h1, .down-left article.members {
+  margin-left: 4rem;
+}
+
+.margin-4-right {
+  margin-right: 4rem;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-4 {
+  margin: 4rem;
 }
 
 .container {
@@ -444,13 +524,11 @@ table {
 }
 
 .row {
-  margin: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 100%;
 }
 
 .bottom {
@@ -686,7 +764,6 @@ main article .signature p {
 .down-left h1 {
   font-size: 22px;
   font-weight: 700;
-  margin-left: 17%;
   padding-bottom: 20px;
   border-bottom: 1px solid gray;
 }
@@ -707,7 +784,6 @@ main article .signature p {
 }
 
 .down-left article.members {
-  margin-left: 17%;
   margin-bottom: 48px;
   padding-top: 20px;
   width: 82%;

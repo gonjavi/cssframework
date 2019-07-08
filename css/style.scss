@@ -4,11 +4,12 @@
 @import "size.scss";
 
 $start: 0;
-$end: 1;
+$end: 4;
 $top:"top";
 $bottom:"bottom";
 $right:"right";
 $left:"left";
+$auto:"auto";
 
 
 @for $i from $start through $end {
@@ -27,6 +28,11 @@ $left:"left";
   .margin-#{$i}-#{$right} {
     margin-#{$right}: #{$i}rem;
   }
+
+  .margin-#{$auto} {
+    margin: #{$auto};
+  }
+
 
   .margin-#{$i}{
     margin: #{$i}rem;
@@ -121,10 +127,10 @@ $left:"left";
 
 
 .row{
-    margin:1%;
+    
     display: flex;
     flex-wrap: wrap;
-   width: 100%;
+   
 }
 .bottom{
     height: 50px;
@@ -331,9 +337,12 @@ main{
     h1{
         font-size: 22px;
         font-weight: 700;
-        margin-left:17%;
+        
         padding-bottom: 20px;
         border-bottom: 1px solid gray;
+        @extend .margin-4-left;
+        @extend .margin-1-right;
+        
     }
     a{display:block; }
     a.title{
@@ -345,10 +354,11 @@ main{
     a.more{text-align:right;}
    
     article.members{
-        margin-left: 17%;
+        
         margin-bottom:48px;
         padding-top:20px;
         width:82%;
+        @extend .margin-4-left;
         h2{display:none;}
         .title-left{
             width: 80%;
