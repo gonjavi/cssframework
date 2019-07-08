@@ -145,6 +145,12 @@ table {
   vertical-align: middle;
 }
 
+@media (max-width: 767px) {
+  .container button {
+    display: none;
+  }
+}
+
 .container button {
   background: white;
   border: 1px solid black;
