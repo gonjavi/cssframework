@@ -82,6 +82,8 @@ width: 100%;
 /* medium devices columns*/
 @media (min-width: 768px) and (max-width: 1023px){
 
+    col-m-0{display:none}
+    
     .col-m-1{
     flex: 9%;
     width: 100%;
@@ -138,6 +140,8 @@ width: 100%;
 /*  classes for small devices */
 
 @media (max-width: 767px){
+    .col-s-0{display:none}
+
     .col-s-1{
     flex: 9%;
     width: 100%;
