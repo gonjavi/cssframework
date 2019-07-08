@@ -1,4 +1,4 @@
-/*  columns grid*/
+/*  columns grid - large devices*/
 
 .col1
 {
@@ -53,3 +53,114 @@ width: 100%;
     height: auto;
 }
 
+/* medium devices columns*/
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .col-m-1{
+    flex: 9%;
+    width: 100%;
+
+    }
+
+    .col-m-2{
+        flex:19%;
+        height: auto;
+        width: 100%;
+    }
+    .col3-m-3{
+        flex:29%;
+        height: auto;
+        width: 100%;
+    }
+
+    .col-m-4{
+        flex:39%;
+        height: auto;
+        width: 100%;
+    }
+    .col-m-5{
+        flex:49%;
+        height: auto;
+        width: 100%;
+    }
+    .col-m-6{
+        flex:59%;
+        height: auto;
+        width: 100%;
+    }
+    .col-m-7{
+        flex:70%;
+        height: auto;
+        width: 100%;
+    }
+    .col-m-8{
+        flex: 79%;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .col-m-9{
+        flex:89%;
+        height: auto;
+    }
+    .col-m-10{
+        flex:99%;
+        height: auto;
+    }
+}
+
+/*  classes for small devices */
+
+@media (max-width: 767px){
+    .col-s-1{
+    flex: 9%;
+    width: 100%;
+
+    }
+
+    .col-s-2{
+        flex:19%;
+        height: auto;
+        width: 100%;
+    }
+    .col-s-3{
+        flex:29%;
+        height: auto;
+        width: 100%;
+    }
+
+    .col-s-4{
+        flex:39%;
+        height: auto;
+        width: 100%;
+    }
+    .col-s-5{
+        flex:49%;
+        height: auto;
+        width: 100%;
+    }
+    .col-s-6{
+        flex:59%;
+        height: auto;
+        width: 100%;
+    }
+    .col-s-7{
+        flex:70%;
+        height: auto;
+        width: 100%;
+    }
+    .col-s-8{
+        flex: 79%;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .col-s-9{
+        flex:89%;
+        height: auto;
+    }
+    .col-s-10{
+        flex:99%;
+        height: auto;
+    }
+}
