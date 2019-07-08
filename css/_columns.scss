@@ -22,6 +22,10 @@ width: 100%;
     flex:29%;
     height: auto;
     width: 100%;
+
+    @media #{$medium}{
+        flex:90%;
+    }
 }
 
 .col4{
