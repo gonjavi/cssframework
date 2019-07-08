@@ -152,6 +152,7 @@ $auto:"auto";
 .bar2{
     height:50px;
  ul{
+     text-align: center;
      li:nth-child(1){
         margin:0;
      }
@@ -302,6 +303,7 @@ main{
         margin:0 3%;
     @include centerall();
     text-align: left;
+    width: 100%;
     }
 
 

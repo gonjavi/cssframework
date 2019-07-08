@@ -49,131 +49,116 @@ table {
 }
 
 /*  columns grid - large devices*/
-.col1 {
-  -webkit-box-flex: 9%;
-      -ms-flex: 9%;
-          flex: 9%;
-  width: 100%;
+@media (min-width: 1024px) {
+  .col1 {
+    -webkit-box-flex: 9%;
+        -ms-flex: 9%;
+            flex: 9%;
+    width: 100%;
+  }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 1024px) and (max-width: 767px) {
   .col1 {
     overflow: hidden;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
   .col1 {
     overflow: hidden;
   }
 }
 
-.col2 {
-  -webkit-box-flex: 19%;
-      -ms-flex: 19%;
-          flex: 19%;
-  height: auto;
-  width: 100%;
-}
-
-.col3 {
-  -webkit-box-flex: 29%;
-      -ms-flex: 29%;
-          flex: 29%;
-  height: auto;
-  width: 100%;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1024px) {
+  .col2 {
+    -webkit-box-flex: 19%;
+        -ms-flex: 19%;
+            flex: 19%;
+    height: auto;
+    width: 100%;
+  }
   .col3 {
-    -webkit-box-flex: 90%;
-        -ms-flex: 90%;
-            flex: 90%;
+    -webkit-box-flex: 29%;
+        -ms-flex: 29%;
+            flex: 29%;
+    height: auto;
+    width: 100%;
+  }
+  .col4 {
+    -webkit-box-flex: 39%;
+        -ms-flex: 39%;
+            flex: 39%;
+    height: auto;
+    width: 100%;
+  }
+  .col5 {
+    -webkit-box-flex: 49%;
+        -ms-flex: 49%;
+            flex: 49%;
+    height: auto;
+    width: 100%;
+  }
+  .col6 {
+    -webkit-box-flex: 59%;
+        -ms-flex: 59%;
+            flex: 59%;
+    height: auto;
+    width: 100%;
+  }
+  .col7 {
+    -webkit-box-flex: 70%;
+        -ms-flex: 70%;
+            flex: 70%;
+    height: auto;
+    width: 100%;
+  }
+  .col8 {
+    -webkit-box-flex: 79%;
+        -ms-flex: 79%;
+            flex: 79%;
+    height: auto;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
-.col4 {
-  -webkit-box-flex: 39%;
-      -ms-flex: 39%;
-          flex: 39%;
-  height: auto;
-  width: 100%;
-}
-
-.col5 {
-  -webkit-box-flex: 49%;
-      -ms-flex: 49%;
-          flex: 49%;
-  height: auto;
-  width: 100%;
-}
-
-.col6 {
-  -webkit-box-flex: 59%;
-      -ms-flex: 59%;
-          flex: 59%;
-  height: auto;
-  width: 100%;
-}
-
-.col7 {
-  -webkit-box-flex: 70%;
-      -ms-flex: 70%;
-          flex: 70%;
-  height: auto;
-  width: 100%;
-}
-
-.col8 {
-  -webkit-box-flex: 79%;
-      -ms-flex: 79%;
-          flex: 79%;
-  height: auto;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-@media (max-width: 767px) {
+@media (min-width: 1024px) and (max-width: 767px) {
   .col8 {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
     overflow: hidden;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
   .col8 {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
     overflow: hidden;
   }
 }
 
-.col9 {
-  -webkit-box-flex: 89%;
-      -ms-flex: 89%;
-          flex: 89%;
-  height: auto;
+@media (min-width: 1024px) {
+  .col9 {
+    -webkit-box-flex: 89%;
+        -ms-flex: 89%;
+            flex: 89%;
+    height: auto;
+  }
+  .col10 {
+    -webkit-box-flex: 99%;
+        -ms-flex: 99%;
+            flex: 99%;
+    height: auto;
+  }
 }
 
-.col10 {
-  -webkit-box-flex: 99%;
-      -ms-flex: 99%;
-          flex: 99%;
-  height: auto;
-}
-
-@media (max-width: 767px) {
+@media (min-width: 1024px) and (max-width: 767px) {
   .col10 {
     overflow: hidden;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
   .col10 {
     overflow: hidden;
   }
@@ -181,11 +166,15 @@ table {
 
 /* medium devices columns*/
 @media (min-width: 768px) and (max-width: 1023px) {
+  col-m-0 {
+    display: none;
+  }
   .col-m-1 {
     -webkit-box-flex: 9%;
         -ms-flex: 9%;
             flex: 9%;
     width: 100%;
+    overflow: hidden;
   }
   .col-m-2 {
     -webkit-box-flex: 19%;
@@ -193,6 +182,7 @@ table {
             flex: 19%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col3-m-3 {
     -webkit-box-flex: 29%;
@@ -200,6 +190,7 @@ table {
             flex: 29%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-m-4 {
     -webkit-box-flex: 39%;
@@ -207,6 +198,7 @@ table {
             flex: 39%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-m-5 {
     -webkit-box-flex: 49%;
@@ -214,6 +206,7 @@ table {
             flex: 49%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-m-6 {
     -webkit-box-flex: 59%;
@@ -221,6 +214,7 @@ table {
             flex: 59%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-m-7 {
     -webkit-box-flex: 70%;
@@ -228,6 +222,7 @@ table {
             flex: 70%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-m-8 {
     -webkit-box-flex: 79%;
@@ -235,31 +230,35 @@ table {
             flex: 79%;
     height: auto;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    overflow: hidden;
   }
   .col-m-9 {
     -webkit-box-flex: 89%;
         -ms-flex: 89%;
             flex: 89%;
     height: auto;
+    overflow: hidden;
   }
   .col-m-10 {
     -webkit-box-flex: 99%;
         -ms-flex: 99%;
             flex: 99%;
     height: auto;
+    overflow: hidden;
   }
 }
 
 /*  classes for small devices */
 @media (max-width: 767px) {
+  .col-s-0 {
+    display: none;
+  }
   .col-s-1 {
     -webkit-box-flex: 9%;
         -ms-flex: 9%;
             flex: 9%;
     width: 100%;
+    overflow: hidden;
   }
   .col-s-2 {
     -webkit-box-flex: 19%;
@@ -267,6 +266,7 @@ table {
             flex: 19%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-s-3 {
     -webkit-box-flex: 29%;
@@ -274,6 +274,7 @@ table {
             flex: 29%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-s-4 {
     -webkit-box-flex: 39%;
@@ -281,6 +282,7 @@ table {
             flex: 39%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-s-5 {
     -webkit-box-flex: 49%;
@@ -288,6 +290,7 @@ table {
             flex: 49%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-s-6 {
     -webkit-box-flex: 59%;
@@ -295,6 +298,7 @@ table {
             flex: 59%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-s-7 {
     -webkit-box-flex: 70%;
@@ -302,6 +306,7 @@ table {
             flex: 70%;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .col-s-8 {
     -webkit-box-flex: 79%;
@@ -309,21 +314,21 @@ table {
             flex: 79%;
     height: auto;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    overflow: hidden;
   }
   .col-s-9 {
     -webkit-box-flex: 89%;
         -ms-flex: 89%;
             flex: 89%;
     height: auto;
+    overflow: hidden;
   }
   .col-s-10 {
     -webkit-box-flex: 99%;
         -ms-flex: 99%;
             flex: 99%;
     height: auto;
+    overflow: hidden;
   }
 }
 
@@ -580,6 +585,10 @@ table {
   height: 50px;
 }
 
+.bar2 ul {
+  text-align: center;
+}
+
 .bar2 ul li:nth-child(1) {
   margin: 0;
 }
@@ -756,6 +765,7 @@ main article .signature p {
   text-align: center;
   vertical-align: middle;
   text-align: left;
+  width: 100%;
 }
 
 /*  col 3  right*/

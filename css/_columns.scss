@@ -1,5 +1,7 @@
 /*  columns grid - large devices*/
 @import "size.scss";
+
+@media #{$large}{
 .col1
 {
 flex: 9%;
@@ -23,9 +25,6 @@ width: 100%;
     height: auto;
     width: 100%;
 
-    @media #{$medium}{
-        flex:90%;
-    }
 }
 
 .col4{
@@ -54,12 +53,12 @@ width: 100%;
     width: 100%;
     align-items: center;
     @media #{$small}{
-        flex: 100%;
+       
         overflow:hidden;
     }
 
     @media #{$medium}{
-        flex: 100%;
+      
         overflow:hidden;
     }
 }
@@ -78,62 +77,72 @@ width: 100%;
         overflow:hidden;
     }
 }
+}
 
 /* medium devices columns*/
-@media (min-width: 768px) and (max-width: 1023px){
+@media #{$medium}{
 
     col-m-0{display:none}
     
     .col-m-1{
     flex: 9%;
     width: 100%;
-
+    overflow:hidden;
     }
 
     .col-m-2{
         flex:19%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col3-m-3{
         flex:29%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
 
     .col-m-4{
         flex:39%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-m-5{
         flex:49%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-m-6{
         flex:59%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-m-7{
         flex:70%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-m-8{
         flex: 79%;
         height: auto;
         width: 100%;
-        align-items: center;
+        
+        overflow:hidden;
     }
     .col-m-9{
         flex:89%;
         height: auto;
+        overflow:hidden;
     }
     .col-m-10{
         flex:99%;
         height: auto;
+        overflow:hidden;
     }
 }
 
@@ -145,52 +154,60 @@ width: 100%;
     .col-s-1{
     flex: 9%;
     width: 100%;
-
+    overflow:hidden;
     }
 
     .col-s-2{
         flex:19%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-s-3{
         flex:29%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
 
     .col-s-4{
         flex:39%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-s-5{
         flex:49%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-s-6{
         flex:59%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-s-7{
         flex:70%;
         height: auto;
         width: 100%;
+        overflow:hidden;
     }
     .col-s-8{
         flex: 79%;
         height: auto;
         width: 100%;
-        align-items: center;
+        overflow:hidden;
     }
     .col-s-9{
         flex:89%;
         height: auto;
+        overflow:hidden;
     }
     .col-s-10{
         flex:99%;
         height: auto;
+        overflow:hidden;
     }
 }
