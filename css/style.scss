@@ -1,6 +1,8 @@
 @import "../css/reset.scss";
 @import "../css/columns.scss";
 @import "colors.scss";
+@import "size.scss";
+
 
 @mixin centerall {
     display:flex;
@@ -75,22 +77,13 @@
     margin:1%;
     display: flex;
     flex-wrap: wrap;
-   
+   width: 100%;
 }
 .bottom{
     height: 50px;
     
 }
-.bottom::after{
-    position: fixed;
-    
-    z-index: 1020;
-    top: 50px;
-right: 0;
-width: 100%;
 
-z-index: 1020;   
-}
 
 .bar2{
     height:50px;
