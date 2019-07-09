@@ -1,0 +1,213 @@
+/*  columns grid - large devices*/
+@import "size.scss";
+
+@media #{$large}{
+.col1
+{
+flex: 9%;
+width: 100%;
+@media #{$small}{
+    overflow:hidden;
+}
+
+@media #{$medium}{
+    overflow:hidden;
+}
+}
+
+.col2{
+    flex:19%;
+    height: auto;
+    width: 100%;
+}
+.col3{
+    flex:29%;
+    height: auto;
+    width: 100%;
+
+}
+
+.col4{
+    flex:39%;
+    height: auto;
+    width: 100%;
+}
+.col5{
+    flex:49%;
+    height: auto;
+    width: 100%;
+}
+.col6{
+    flex:59%;
+    height: auto;
+    width: 100%;
+}
+.col7{
+    flex:70%;
+    height: auto;
+    width: 100%;
+}
+.col8{
+    flex: 79%;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    @media #{$small}{
+       
+        overflow:hidden;
+    }
+
+    @media #{$medium}{
+      
+        overflow:hidden;
+    }
+}
+.col9{
+    flex:89%;
+    height: auto;
+}
+.col10{
+    flex:99%;
+    height: auto;
+    @media #{$small}{
+        overflow:hidden;
+    }
+
+    @media #{$medium}{
+        overflow:hidden;
+    }
+}
+}
+
+/* medium devices columns*/
+@media #{$medium}{
+
+    col-m-0{display:none}
+    
+    .col-m-1{
+    flex: 9%;
+    width: 100%;
+    overflow:hidden;
+    }
+
+    .col-m-2{
+        flex:19%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col3-m-3{
+        flex:29%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+
+    .col-m-4{
+        flex:39%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-m-5{
+        flex:49%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-m-6{
+        flex:59%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-m-7{
+        flex:70%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-m-8{
+        flex: 79%;
+        height: auto;
+        width: 100%;
+        
+        overflow:hidden;
+    }
+    .col-m-9{
+        flex:89%;
+        height: auto;
+        overflow:hidden;
+    }
+    .col-m-10{
+        flex:99%;
+        height: auto;
+        overflow:hidden;
+    }
+}
+
+/*  classes for small devices */
+
+@media (max-width: 767px){
+    .col-s-0{display:none}
+
+    .col-s-1{
+    flex: 9%;
+    width: 100%;
+    overflow:hidden;
+    }
+
+    .col-s-2{
+        flex:19%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-s-3{
+        flex:29%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+
+    .col-s-4{
+        flex:39%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-s-5{
+        flex:49%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-s-6{
+        flex:59%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-s-7{
+        flex:70%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-s-8{
+        flex: 79%;
+        height: auto;
+        width: 100%;
+        overflow:hidden;
+    }
+    .col-s-9{
+        flex:89%;
+        height: auto;
+        overflow:hidden;
+    }
+    .col-s-10{
+        flex:99%;
+        height: auto;
+        overflow:hidden;
+    }
+}
