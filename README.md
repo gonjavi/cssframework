@@ -1,6 +1,6 @@
 # Project: Design Framework
 
-In this project we have designed our own CSS Framework and created this website: [Medium](https://www.medium.com/), as a part of the assignment for microverse using concepts of **HTML5** , **CSS3**, and **SCSS**. This grid framework has 10 colomns.
+In this project we have designed our own CSS Framework and created this website: [Medium](https://www.medium.com/), as a part of the assignment for microverse using concepts of **HTML5** , **CSS3**, and **SCSS**. This grid framework has 10 columns.
 
 
 ![screenshot](./img/cssframework.png)
