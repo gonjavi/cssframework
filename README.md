@@ -24,7 +24,7 @@ In this project we have designed our own CSS Framework and created this website:
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/gonjavi/cssframework/development/index.html)
+[Live Demo Link](https://gonjavi.github.io/cssframework/)
 
 
 ## 🤝 Contributing
